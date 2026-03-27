@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MemChat Desktop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand-block">
+          <p class="eyebrow">Personal Memory Agent</p>
+          <h1>MemChat</h1>
+          <p class="subcopy">Capture what is on screen, then ask grounded questions against that memory.</p>
+        </div>
+
+        <section class="status-card glass">
+          <div class="section-head">
+            <h2>Capture Status</h2>
+            <span id="status-badge" class="badge badge-idle">Idle</span>
+          </div>
+          <dl class="status-grid">
+            <div>
+              <dt>Thread</dt>
+              <dd id="thread-state">Not started</dd>
+            </div>
+            <div>
+              <dt>Last Capture</dt>
+              <dd id="last-capture">None</dd>
+            </div>
+            <div>
+              <dt>Events Seen</dt>
+              <dd id="event-count">0</dd>
+            </div>
+            <div>
+              <dt>Recent Memories</dt>
+              <dd id="memory-count">0</dd>
+            </div>
+          </dl>
+        </section>
+
+        <section class="controls glass">
+          <div class="section-head">
+            <h2>Controls</h2>
+          </div>
+          <div class="button-row">
+            <button id="start-btn" class="btn btn-primary">Start Capture</button>
+            <button id="pause-btn" class="btn btn-secondary">Pause</button>
+            <button id="stop-btn" class="btn btn-ghost">Stop</button>
+          </div>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <section class="hero glass">
+          <div>
+            <p class="eyebrow">Desktop Console</p>
+            <h2>Ask what you were working on</h2>
+            <p class="hero-copy">Start capture when you want MemChat to observe your screen, then chat with it here for grounded answers based on what it remembers.</p>
+          </div>
+          <div class="orbital"></div>
+        </section>
+
+        <section class="chat-panel glass">
+          <div class="section-head">
+            <h2>Memory Chat</h2>
+          </div>
+          <div id="chat-log" class="chat-log"></div>
+          <form id="chat-form" class="chat-form">
+            <textarea id="question-input" placeholder="Ask something like: what was I researching in the browser?" rows="3"></textarea>
+            <button type="submit" class="btn btn-primary">Ask MemChat</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <template id="chat-message-template">
+      <article class="message">
+        <div class="message-role"></div>
+        <div class="message-body"></div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+

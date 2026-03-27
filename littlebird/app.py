@@ -6,6 +6,7 @@ from typing import Optional, Sequence
 
 from .agent import CaptureAgent
 from .config import CONFIG
+from .desktop import DesktopApp
 from .ui import run_console, run_tray
 
 
@@ -27,11 +28,16 @@ class LittlebirdApplication:
         self.validate_config()
 
         self.agent = self.create_agent()
-        self.agent.start()
 
+        if self.options.mode == "desktop":
+            if self.options.seed_demo:
+                self.seed_test_event(self.agent)
+            self.run_desktop(self.agent)
+            return 0
+
+        self.agent.start()
         if self.options.seed_demo:
             self.seed_test_event(self.agent)
-
         self.run_interface(self.agent)
         return 0
 
@@ -43,6 +49,9 @@ class LittlebirdApplication:
             run_tray(agent)
             return
         run_console(agent)
+
+    def run_desktop(self, agent: CaptureAgent) -> None:
+        DesktopApp(agent).run()
 
     @staticmethod
     def print_banner() -> None:
@@ -83,7 +92,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Littlebird personal memory agent")
     parser.add_argument(
         "--mode",
-        choices=("console", "tray"),
+        choices=("console", "tray", "desktop"),
         default="console",
         help="Choose how to interact with the running agent.",
     )
