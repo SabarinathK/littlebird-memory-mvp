@@ -4,6 +4,10 @@ MemChat is a local desktop-first memory assistant that captures on-screen contex
 
 This repository is an MVP. It is not an official project or clone.
 
+## Demo
+
+[![Watch Demo](https://img.youtube.com/vi/Il4p9ZMiMw8/0.jpg)](https://youtu.be/Il4p9ZMiMw8)
+
 ## What It Does
 
 - Captures text from the active Windows foreground app
