@@ -546,3 +546,201 @@
 2026-03-28 00:59:54,741 [INFO] Query: what are task i have
 2026-03-28 00:59:55,295 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2026-03-28 01:00:35,561 [INFO] Capture stopped
+2026-03-31 21:23:10,315 [INFO] Initialising Littlebird Windows Agent...
+2026-03-31 21:23:10,336 [INFO] Use pytorch device_name: cpu
+2026-03-31 21:23:10,341 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-31 21:23:11,240 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:23:11,242 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-31 21:23:11,265 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-31 21:23:11,647 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:23:11,679 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-31 21:23:12,058 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:23:12,077 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-31 21:23:12,355 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:23:12,394 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-03-31 21:23:12,772 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:23:12,795 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-31 21:23:13,185 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:23:13,211 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-31 21:23:13,594 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-31 21:23:13,955 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:23:14,001 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-31 21:23:14,615 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:23:14,641 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-31 21:23:15,027 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:23:15,052 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-31 21:23:15,446 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-31 21:23:15,735 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-31 21:23:16,257 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:23:16,281 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-31 21:23:16,560 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-03-31 21:23:20,036 [INFO] ChromaDB initialized (persistent local mode)
+2026-03-31 21:23:20,405 [INFO] Groq client ready - model: llama-3.1-8b-instant
+2026-03-31 21:23:20,874 [INFO] UI Automation (pywinauto) available
+2026-03-31 21:23:20,874 [INFO] Agent ready
+2026-03-31 21:23:20,877 [INFO] Desktop app available at http://127.0.0.1:63507/index.html
+2026-03-31 21:23:34,789 [INFO] Capture started - screen active
+2026-03-31 21:23:34,996 [INFO] Processing [screen] from python.exe - 125 chars
+2026-03-31 21:23:35,508 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:23:35,800 [INFO] Stored - entities: 3, summary: MemChat Desktop window with InPrivate mode
+2026-03-31 21:23:41,208 [INFO] Processing [screen] from SearchHost.exe - 87 chars
+2026-03-31 21:23:41,520 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:23:41,592 [INFO] Stored - entities: 5, summary: Search functionality in Notepad
+2026-03-31 21:23:47,534 [INFO] Processing [screen] from Notepad.exe - 1569 chars
+2026-03-31 21:23:48,824 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:23:49,005 [INFO] Stored - entities: 18, summary: Tomorrow's tasks include talking to VC and founders, plannin
+2026-03-31 21:23:53,647 [INFO] Processing [screen] from Notepad.exe - 713 chars
+2026-03-31 21:23:54,041 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:23:54,183 [INFO] Stored - entities: 2, summary: Working on AI memory project Little and have a task for tomo
+2026-03-31 21:23:59,778 [INFO] Processing [screen] from Notepad.exe - 711 chars
+2026-03-31 21:24:00,477 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:24:00,644 [INFO] Stored - entities: 4, summary: Working on AI memory project Little and have a task for tomo
+2026-03-31 21:24:05,920 [INFO] Processing [screen] from Notepad.exe - 734 chars
+2026-03-31 21:24:06,635 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:24:06,790 [INFO] Stored - entities: 9, summary: Notes on AI memory project and tasks to complete
+2026-03-31 21:24:12,095 [INFO] Processing [screen] from Notepad.exe - 907 chars
+2026-03-31 21:24:12,885 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:24:13,074 [INFO] Stored - entities: 5, summary: Notes on AI memory project and tasks to complete.
+2026-03-31 21:24:18,254 [INFO] Processing [screen] from Notepad.exe - 907 chars
+2026-03-31 21:24:18,817 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:24:18,976 [INFO] Stored - entities: 6, summary: Notes on AI memory project and tasks to complete
+2026-03-31 21:24:42,397 [INFO] Processing [screen] from python.exe - 750 chars
+2026-03-31 21:24:43,290 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:24:43,466 [INFO] Stored - entities: 15, summary: MemChat Desktop is running and ready to capture screen activ
+2026-03-31 21:24:58,056 [INFO] Capture stopped
+2026-03-31 21:25:03,809 [INFO] Query: what are task i have on friday
+2026-03-31 21:25:04,694 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:25:28,144 [INFO] Query: any friends call i need to do?
+2026-03-31 21:25:28,760 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:25:50,068 [INFO] Query: names  need to follow
+2026-03-31 21:25:50,566 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:26:11,019 [INFO] Capture started - screen active
+2026-03-31 21:26:17,311 [INFO] Processing [screen] from firefox.exe - 29 chars
+2026-03-31 21:26:17,707 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:26:17,772 [INFO] Stored - entities: 0, summary: System menu options
+2026-03-31 21:26:23,488 [INFO] Processing [screen] from python.exe - 1407 chars
+2026-03-31 21:26:24,466 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:26:24,604 [INFO] Stored - entities: 11, summary: MemChat Desktop captured screen content related to AI memory
+2026-03-31 21:26:29,579 [INFO] Processing [screen] from Notepad.exe - 1046 chars
+2026-03-31 21:26:30,504 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:26:30,667 [INFO] Stored - entities: 13, summary: Planning tasks for tomorrow and beyond, including remote job
+2026-03-31 21:27:24,285 [INFO] Processing [screen] from python.exe - 1407 chars
+2026-03-31 21:27:25,285 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:27:25,460 [INFO] Stored - entities: 11, summary: MemChat Desktop captures screen and provides answers based o
+2026-03-31 21:27:48,402 [INFO] Processing [screen] from Notepad.exe - 1065 chars
+2026-03-31 21:27:49,554 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:27:49,734 [INFO] Stored - entities: 12, summary: List of tasks and reminders for the day
+2026-03-31 21:27:54,508 [INFO] Processing [screen] from Notepad.exe - 790 chars
+2026-03-31 21:27:55,395 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:27:55,549 [INFO] Stored - entities: 7, summary: Notes on AI memory project and tasks to follow
+2026-03-31 21:28:18,919 [INFO] Processing [screen] from firefox.exe - 3958 chars
+2026-03-31 21:28:20,277 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:28:20,279 [WARNING] Entity extraction failed: Expecting ',' delimiter: line 47 column 202 (char 2533)
+2026-03-31 21:28:20,440 [INFO] Stored - entities: 0, summary: 
+2026-03-31 21:29:03,822 [INFO] Processing [screen] from python.exe - 1407 chars
+2026-03-31 21:29:05,025 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:29:05,183 [INFO] Stored - entities: 10, summary: MemChat Desktop captured screen and extracted tasks for Frid
+2026-03-31 21:29:06,713 [INFO] Query: what i searched today
+2026-03-31 21:29:07,176 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:29:23,123 [INFO] Processing [screen] from firefox.exe - 4000 chars
+2026-03-31 21:29:24,471 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:29:24,472 [WARNING] Entity extraction failed: Expecting ',' delimiter: line 53 column 102 (char 2746)
+2026-03-31 21:29:24,626 [INFO] Stored - entities: 0, summary: 
+2026-03-31 21:29:59,140 [INFO] Processing [screen] from python.exe - 1490 chars
+2026-03-31 21:29:59,760 [INFO] Query: what i searched today
+2026-03-31 21:30:00,029 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:30:00,186 [INFO] Stored - entities: 8, summary: MemChat Desktop captured screen content and extracted tasks 
+2026-03-31 21:30:00,750 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:30:15,713 [INFO] Query: what i searched today in firefox
+2026-03-31 21:30:16,194 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:30:21,223 [INFO] Capture stopped
+2026-03-31 21:31:58,560 [INFO] Initialising Littlebird Windows Agent...
+2026-03-31 21:31:58,599 [INFO] Use pytorch device_name: cpu
+2026-03-31 21:31:58,599 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-03-31 21:31:59,515 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:31:59,623 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-31 21:31:59,924 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:32:00,278 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-31 21:32:00,639 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:32:01,048 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-03-31 21:32:01,359 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:32:01,359 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-03-31 21:32:01,458 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-03-31 21:32:01,768 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:32:01,870 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-03-31 21:32:02,176 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:32:02,278 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-03-31 21:32:02,578 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-03-31 21:32:02,894 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:32:02,995 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-31 21:32:03,504 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:32:03,571 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-03-31 21:32:03,918 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:32:03,987 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-03-31 21:32:04,333 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-03-31 21:32:04,748 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-03-31 21:32:05,250 [INFO] HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-03-31 21:32:05,354 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-03-31 21:32:05,758 [INFO] HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-03-31 21:32:05,967 [INFO] ChromaDB initialized (persistent local mode)
+2026-03-31 21:32:06,441 [INFO] Groq client ready - model: llama-3.1-8b-instant
+2026-03-31 21:32:06,753 [INFO] UI Automation (pywinauto) available
+2026-03-31 21:32:06,753 [INFO] Agent ready
+2026-03-31 21:32:06,763 [INFO] Desktop app available at http://127.0.0.1:55333/index.html
+2026-03-31 21:32:14,138 [INFO] Capture started - screen active
+2026-03-31 21:32:14,577 [INFO] Processing [screen] from python.exe - 125 chars
+2026-03-31 21:32:15,589 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:32:15,845 [INFO] Stored - entities: 3, summary: MemChat Desktop window with InPrivate mode
+2026-03-31 21:32:20,720 [INFO] Processing [screen] from Notepad.exe - 426 chars
+2026-03-31 21:32:21,632 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:32:21,824 [INFO] Stored - entities: 20, summary: Notepad interface with various actions and features
+2026-03-31 21:32:26,847 [INFO] Processing [screen] from Notepad.exe - 425 chars
+2026-03-31 21:32:27,881 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:32:28,160 [INFO] Stored - entities: 29, summary: Notepad window with various actions and settings.
+2026-03-31 21:32:32,937 [INFO] Processing [screen] from Notepad.exe - 471 chars
+2026-03-31 21:32:33,817 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:32:34,708 [INFO] Stored - entities: 21, summary: Notes on using Notepad to post a tweet
+2026-03-31 21:32:39,097 [INFO] Processing [screen] from Notepad.exe - 483 chars
+2026-03-31 21:32:39,758 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:32:39,951 [INFO] Stored - entities: 3, summary: Planning to post a tweet tomorrow.
+2026-03-31 21:32:45,218 [INFO] Processing [screen] from Notepad.exe - 502 chars
+2026-03-31 21:32:45,799 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:32:46,008 [INFO] Stored - entities: 3, summary: Notes for today and tomorrow
+2026-03-31 21:32:51,327 [INFO] Processing [screen] from Notepad.exe - 513 chars
+2026-03-31 21:32:52,059 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:32:52,304 [INFO] Stored - entities: 7, summary: To-do list with tasks for today and tomorrow
+2026-03-31 21:32:57,489 [INFO] Processing [screen] from Notepad.exe - 519 chars
+2026-03-31 21:32:58,087 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:32:58,405 [INFO] Stored - entities: 3, summary: Personal reminders and tasks
+2026-03-31 21:33:03,749 [INFO] Processing [screen] from Notepad.exe - 533 chars
+2026-03-31 21:33:04,233 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:33:04,432 [INFO] Stored - entities: 5, summary: Personal reminders and tasks
+2026-03-31 21:33:09,905 [INFO] Processing [screen] from Notepad.exe - 551 chars
+2026-03-31 21:33:10,374 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:33:10,657 [INFO] Stored - entities: 5, summary: Reminders for today and tomorrow
+2026-03-31 21:33:15,967 [INFO] Processing [screen] from firefox.exe - 12 chars
+2026-03-31 21:33:16,313 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:33:16,441 [INFO] Stored - entities: 0, summary: No meaningful entities found
+2026-03-31 21:33:22,567 [INFO] Processing [screen] from firefox.exe - 2568 chars
+2026-03-31 21:33:23,993 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:33:23,993 [WARNING] Entity extraction failed: Expecting ',' delimiter: line 50 column 75 (char 2490)
+2026-03-31 21:33:24,143 [INFO] Stored - entities: 0, summary: 
+2026-03-31 21:33:43,974 [INFO] Processing [screen] from firefox.exe - 4000 chars
+2026-03-31 21:33:45,105 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:33:45,266 [INFO] Stored - entities: 25, summary: Information about the size of Jupiter compared to Earth
+2026-03-31 21:33:50,160 [INFO] Processing [screen] from python.exe - 750 chars
+2026-03-31 21:33:51,254 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-03-31 21:33:51,254 [INFO] Retrying request to /openai/v1/chat/completions in 0.429743 seconds
+2026-03-31 21:33:51,742 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-03-31 21:33:51,744 [INFO] Retrying request to /openai/v1/chat/completions in 0.952370 seconds
+2026-03-31 21:33:52,772 [INFO] Capture paused
+2026-03-31 21:33:53,893 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:33:54,051 [INFO] Stored - entities: 15, summary: MemChat Desktop is running and ready to capture screen activ
+2026-03-31 21:34:03,808 [INFO] Query: what are task i have today
+2026-03-31 21:34:04,238 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:34:15,942 [INFO] Query: task for tommorrow
+2026-03-31 21:34:16,322 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:34:35,205 [INFO] Query: any search history in firefox
+2026-03-31 21:34:35,778 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-31 21:35:12,800 [INFO] Query: what i searched in firefox
+2026-03-31 21:35:13,563 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
